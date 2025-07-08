@@ -126,20 +126,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA NA ÁREA DE SAÚDE EM SANTA CATARINA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A saúde não
+          <span className="text-primary"> pode esperar</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Quando o direito é negado, a estratégia jurídica precisa agir.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Fale com a especialista",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +160,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atuação exclusiva e especializada em Direito Médico e da Saúde",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
