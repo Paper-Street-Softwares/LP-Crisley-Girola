@@ -17,7 +17,7 @@ import CtaSecondary from "../components/sections/CtaSecondary";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "light";
 
   return (
     <>
@@ -58,8 +58,6 @@ export default function Index() {
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
-        instagram={true}
-        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
